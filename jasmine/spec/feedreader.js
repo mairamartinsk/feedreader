@@ -109,6 +109,7 @@ $(function() {
     });
 
     /* Write a new test suite named "New Feed Selection" */
+      expect($('.feed .entry').length).toBeGreaterThan(0);
 
     describe('New Feed Selection', function() {
 
